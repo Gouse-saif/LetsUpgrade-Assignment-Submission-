@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #420b90;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+
+.title{
+  text-align: center;
+  text-decoration: underline wavy 2px;
+}
+
+.container{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+details{
+  font-size: 1.65rem;
+  cursor: pointer;
+}
+summary{
+  margin-bottom: 1rem;
+}
+p,pre{
+  color: yellow;
+}

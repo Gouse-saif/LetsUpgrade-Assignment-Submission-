@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #420b90;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  margin: 0 2rem;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline wavy 2px;
+}
+
+.container{
+  margin-top: 2rem;
+  padding: 0 2rem;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  gap: .90rem;
+}
+
+.dishCard{
+  position: relative;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dishContent{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.dishDesc p{
+  text-align: center;
+  padding: 1rem 1rem ;
+}
